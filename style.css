@@ -57,7 +57,7 @@ nav .ul li a{
 .main{
     flex: 1;
     width: 100%;
-    background: lightskyblue;
+    background: #140F03;
     border-bottom-right-radius: 4em;
     margin:auto;
     margin-left: 4em;
@@ -66,7 +66,7 @@ nav .ul li a{
 }
 .main h1{
     font-size: 2em;
-    color:#00003D;
+    color:#fff;
 }
 .top{
     width: 300px;
@@ -238,7 +238,7 @@ nav .ul li a{
 }
 .row h2{
     text-align: center;
-    color:#B2CE2B;
+    color:#11263B;
 }
 .row p{
    word-break: break-all;
@@ -291,4 +291,50 @@ nav .ul li a{
     background:#fff;
     transition: .5s;
     box-shadow: 5px 10px;
+}
+/* section four style sheet */
+.sec-four{
+    width: 100%;
+    /* display: grid;
+    justify-content: center; */
+}
+.sec-four h1{
+    text-align: center;
+}
+.fou{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin:auto;
+    place-items: center;
+    grid-gap: 2em;
+}
+.out::after{
+   content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit quibusdam beatae recusandae";
+   width: 100%;
+   height: 0;
+   background: #11263B;
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   text-align: center;
+   bottom: 0;
+   left: 0;
+   transition: .5s ease-in-out;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.out:hover::after{
+    height: 18vh;
+}
+.out{
+    cursor: pointer;
+    margin:auto;
+    position: relative;
+}
+.out img{
+    width: 300px;
+    height: 300px;
 }
