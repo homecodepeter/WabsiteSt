@@ -6,7 +6,7 @@ body{
 }
 .container{
     width: 100%;
-    background: cadetblue;
+    background: #11263B;
     color: #fff;
     padding: 2em;
     display: flex;
@@ -18,11 +18,13 @@ label{
     font-size: 2em;
 }
 label span{
-    color:black;
+    color:yellow;
 }
 nav .ul{
     display: flex;
     list-style: none;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 nav .ul li{
     margin-left: 1rem;
@@ -64,7 +66,7 @@ nav .ul li a{
 }
 .main h1{
     font-size: 2em;
-    color:#fff;
+    color:#00003D;
 }
 .top{
     width: 300px;
@@ -77,7 +79,7 @@ nav .ul li a{
     width: 300px;
     height: 200px;
     display: block;
-    background-color:#2C95EB;
+    background-color:#00406B;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -86,7 +88,7 @@ nav .ul li a{
 
 .main p{
     line-height: 1.5em;
-    color: #333;
+    color: #777;
 }
 .m-sec{
     flex: 1;
@@ -102,7 +104,7 @@ nav .ul li a{
 .L-side{
     width: 200px;
     height: 200px;
-    background:rgb(32, 196, 218);
+    background:#11263B;
     border-radius: 20px;
     position: absolute;
     top: 2em;
@@ -112,7 +114,7 @@ nav .ul li a{
 .R-side{
     width: 200px;
     height: 200px;
-    background:rgb(32, 196, 218);
+    background:#11263B;
     position: absolute;
     bottom: 0;
     right: 3em;
@@ -124,7 +126,7 @@ nav .ul li a{
     content: "";
     width: 100%;
     height: 10px;
-    background:rgb(32, 196, 218);
+    background:#11263B;
     display: block;
     position: absolute;
     top: 3em;
@@ -134,7 +136,7 @@ nav .ul li a{
     content: "";
     width: 100%;
     height: 10px;
-    background:rgb(32, 196, 218);
+    background:#11263B;
     display: block;
     position: absolute;
     top: 3em;
@@ -171,7 +173,7 @@ nav .ul li a{
     font-family: sans-serif;
     color: #777;
 }
-.woo .btn{
+.btn{
     padding: 10px 40px;
     font-size: 1.4em;
     border-radius: 20px;
@@ -186,7 +188,7 @@ nav .ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5em;
+    /* margin-left: 5em; */
 }
 .icon div{
     margin-left: 2rem;
@@ -216,4 +218,77 @@ nav .ul li a{
 .icon div i:hover{
     background:#239BEB;
     color: #fff;
+}
+.sec-three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.up{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+.row{
+    background: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    padding: 2em;
+    border-radius: 2em;
+}
+.row h2{
+    text-align: center;
+    color:#B2CE2B;
+}
+.row p{
+   word-break: break-all;
+   text-align: center;
+   line-height: 1.3em;
+}
+.den{
+    margin-top: 1em;
+    margin-left: 1em;
+    color: #fff;
+    background:#11263B;
+    transition: .5s;
+}
+.den:hover{
+   padding-right: 2.5em;
+}
+/*  */
+.t{
+    margin-top: 2em;
+}
+/* small center */
+.name{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 8px solid #11263B;
+    border-bottom: 8px solid #11263B;
+    padding: 2em;
+}
+.firs{
+    background: #11263B;
+    padding: .5em 1em;
+    border-radius: 20px;
+    color: yellow;
+}
+.firs h1{
+    font-size: 2em;
+}
+.second h2{
+    font-size: 2em;
+}
+.thir{
+    margin-right: 3em;
+}
+.thir .cen{
+    margin-top: 1em;
+    margin-left: 1em;
+    color: #11263B;
+    border: 2px solid #11263B;
+    background:#fff;
+    transition: .5s;
+    box-shadow: 5px 10px;
 }
