@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin:0;
     padding: 0;
@@ -161,7 +164,7 @@ nav .ul li a{
 }
 .woo{
     flex: 1;
-    margin-left: 2em;
+    margin-right: 4em;
     color: #fff;
 }
 .woo h1{
@@ -337,4 +340,50 @@ nav .ul li a{
 .out img{
     width: 300px;
     height: 300px;
+}
+/* section five style sheet */
+.sec-five{
+    width: 100%;
+    margin:auto;
+}
+.sec-five h1{
+    text-align: center;
+}
+.img img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.this{
+    width: 80%;
+    margin:auto;
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #2C3031;
+    padding: 1.5em;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 2em;
+    /* color: #fff; */
+}
+.pagan{
+    margin-left: 2em;
+}
+.date{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: .1em;
+    color: #7A8587;
+    margin-bottom: .4em;
+}
+.pagan h2{
+    margin: 0 0 .3em;
+    color: #B6EAFF;
+    font-size: 1.8em;
+}
+.pagan p{
+    color:#7A8587;
 }
