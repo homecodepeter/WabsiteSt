@@ -387,3 +387,27 @@ nav .ul li a{
 .pagan p{
     color:#7A8587;
 }
+/* section six style sheet */
+.sec-six{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.six{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 2rem;
+}
+.si{
+    border: 1px solid #777;
+    padding: 2em;
+}
+.si h2{
+    font-size: 1.5em;
+    color:#66BA9A;
+    font-family: 'Courier New', Courier, monospace;
+}
+.slow{
+    color:#11263B;
+}
