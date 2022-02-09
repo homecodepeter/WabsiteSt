@@ -411,3 +411,49 @@ nav .ul li a{
 .slow{
     color:#11263B;
 }
+/* section seven style sheet */
+.sec-seven{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.sec-seven h1{
+    text-align: center;
+    font-size: 1.5em;
+    color:#66BA9A;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    width: 50%;
+    border: 1px solid #777;
+    display: grid;
+    place-items: center;
+}
+form input{
+    width: 80%;
+    margin-top: 2em;
+    padding: 10px 0;
+    outline:none;
+    padding-left: 1em;
+    font-size: 1em;
+}
+form button{
+    margin-left: 1em;
+    width: 80%;
+    outline:none;
+    border:none;
+    background: #66BA9A;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: .5em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+textarea{
+    outline:none;
+    margin-top: 2em;
+    font-size: 1.5em;
+    width: 80%;
+    /* margin-bottom: 2em; */
+}
