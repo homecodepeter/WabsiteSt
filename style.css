@@ -19,6 +19,7 @@ body{
 }
 label{
     font-size: 2em;
+    color: #fff;
 }
 label span{
     color:yellow;
@@ -555,4 +556,22 @@ svg {
 h1 {
     font-size: 1em;
     font-weight: normal;
+}
+.sec-eight{
+    width: 100%;
+    background:#11263B;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.list ul{
+    list-style: none;
+    color: #fff;
+}
+.list ul li {
+    margin: 2em;
+}
+.list ul li:hover{
+    border-bottom: 1px solid yellow;
 }
